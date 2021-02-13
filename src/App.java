@@ -32,9 +32,28 @@ public class LargestofTwo {
 }
 
 
-       // Milestone 2
+       // Milestone 2 Have user input two numbers have those number print out the average in a decimal.
 
+import java.util.Scanner;
 
+public class averageoftwonubers{
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		Double number1, number2, 
+		sc = new Scanner(System.in);
+		
+		System.out.print(" Please Enter the First Number : ");
+		number1 = sc.nextDouble();	
+		
+		System.out.print(" Please Enter the Second Number : ");
+		number2 = sc.nextDouble();	
+
+        System.out.println("Average of two numbers is: " + (num1 + num2 ) / 2);
+                
+		
+}
+    }
 
 
 
